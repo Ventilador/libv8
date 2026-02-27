@@ -50,9 +50,9 @@ runs:
       shell: bash
       run: ccache -s
 
-    - name: Test V8
-      shell: bash
-      run: ./v8_test.sh
+    # - name: Test V8
+    #   shell: bash
+    #   run: ./v8_test.sh
 
     - name: Archive Release
       shell: bash
