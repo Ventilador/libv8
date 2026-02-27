@@ -1,8 +1,8 @@
 name: V8 Version Check
 
 on:
-  schedule:
-    - cron: "0 1 * * *" # every day at UTC 1:00AM
+  # schedule:
+  #   - cron: "0 1 * * *" # every day at UTC 1:00AM
   workflow_dispatch:
 
 jobs:
